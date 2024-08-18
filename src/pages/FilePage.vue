@@ -96,6 +96,7 @@ onUnmounted(() => {
 
 <template>
   <div class="flex flex-col items-center">
+    <a href="/">Home</a>
     <div class="file-area flex flex-col mt-4">
       <div class="files" @click="requestUploadFile" ref="fileUploadArea">
         <input ref="fileUploadInput" type="file" class="hidden" multiple />

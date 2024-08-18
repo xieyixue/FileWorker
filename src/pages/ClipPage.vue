@@ -92,6 +92,7 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="flex flex-col items-center">
+    <a href="/">Home</a>
     <div class="text-area flex flex-col mt-4">
       <div class="header p-2 flex flex-row items-center">
         <input class="filename-input monospace" type="text" v-model="filename" :placeholder="$t('common.filename')" />
